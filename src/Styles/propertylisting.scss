@@ -1,0 +1,48 @@
+@import '../variable.scss';
+.container{
+  .gridcontainer{
+    .grid1{
+      padding: 50px;
+      .heading{
+        font-size: 50px;
+        margin: 0px 0px 24px;
+        color: $CatalinaBlue-color;
+      }
+      .para{
+        font-size: 20px;
+        margin: 0px 0px 24px;
+        color: $black-color;
+      }
+    }
+    .grid2{
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      .button{
+        color:$Meteorite-color;
+        
+      }
+      .button1{
+        margin-left: 2%;
+        color:$Meteorite-color;
+      }
+      .button2{
+        margin-left: 2%;
+        color:$Meteorite-color;
+      }
+      .button:hover{
+        background-color:$DarlSalmon-color ;
+        outline: none;
+      }
+      .button1:hover{
+        background-color:$DarlSalmon-color ;
+        outline: none;
+      }
+      .button2:hover{
+        background-color:$DarlSalmon-color ;
+        outline: none;
+      }
+
+    }
+  }
+}

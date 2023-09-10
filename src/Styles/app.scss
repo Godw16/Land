@@ -1,0 +1,147 @@
+@import '../variable.scss';
+  .container1{
+    // padding-top: 60px;
+    .gridcontainer{
+      .grid1{
+        padding: 50px;
+        .heading{
+          font-size: 50px;
+          margin: 0px 0px 24px;
+          color: $CatalinaBlue-color;
+          .span{
+            color: $DarlSalmon-color;
+          }
+        }
+        .para{
+          font-size: 20px;
+          margin: 0px 0px 24px;
+          color: $black-color;
+        }
+        .button{
+          color:$Meteorite-color;
+          background-color:$DarlSalmon-color ;
+          outline: none;
+        }
+      
+      }
+      
+    }
+    .grid2{
+      .image{
+        width: 100%;
+        height: 486px;
+    
+      }
+
+    }
+    
+  }
+  .container2{
+    background-color:$DarlSalmon-color ;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container2a{
+     
+      background-color:$DarlSalmon-color ;
+      padding: 30px;
+      .textfield{
+        // padding: 16px 12px;
+        width:100%;
+        height: 100%;
+        background-color: $white-color;
+        color: $black-color;
+        border-radius: 5px;
+      }
+      .select-property{
+        // padding: 16px 12px;
+        width:100%;
+        height: 100%;
+        background-color: $white-color;
+        color: $black-color;
+      }
+      .select-location{
+        width:100%;
+        height: 100%;
+        background-color: $white-color;
+        color: $black-color;
+      }
+      .button{
+        // display: flex;
+        align-self: center;
+        // justify-self: center;
+        width:100%;
+        height: 100%;
+        background-color: $Meteorite-color;
+        
+       
+      }
+    }
+    
+  }
+  .container3{
+    width: 50%;
+    .grid1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $Meteorite-color;
+
+    }
+    .grid2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:$black-color;
+      
+    }
+   
+
+  }
+  .container5{
+    margin-top: 100px;
+    .grid1{
+    //   .image::before{
+    //     position: absolute;
+    // content: " ";
+    // top: 0;
+    // left: -50%;
+    // width: 100%;
+    // height: 100%;
+    // background: $black-color;
+    // transform: skew(20deg);
+    // z-index: 1;
+    //   }
+      .image{
+        width: 100%;
+        height: 486px;
+      }
+    }
+    .grid2{
+      padding: 50px;
+      .heading{
+        font-size: 50px;
+        margin: 0px 0px 24px;
+        color: $CatalinaBlue-color;
+      }
+      .para{
+        font-size: 20px;
+        margin: 0px 0px 24px;
+        color: $black-color;
+      }
+      .items{
+        list-style-type:square;
+        font-size: 20px;
+        margin: 0px 0px 24px;
+        color:$black-color;
+        
+      }
+      .button{
+        color:$Meteorite-color;
+        background-color:$DarlSalmon-color ;
+        outline: none;
+      }
+    }
+
+  }
